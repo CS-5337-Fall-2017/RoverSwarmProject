@@ -174,12 +174,10 @@ public class GraphicTile {
 		if(roverName.equals("")){
 			this.teamNum = 0;
 		} else if(roverName.equals("01") || roverName.equals("02") || roverName.equals("03") 
-				|| roverName.equals("04") || roverName.equals("05") || roverName.equals("06") 
-				|| roverName.equals("07") || roverName.equals("08") || roverName.equals("09")){
+				|| roverName.equals("04") || roverName.equals("05")){
 			this.teamNum = 1;
-		} else if(roverName.equals("10") || roverName.equals("11") || roverName.equals("12") 
-				|| roverName.equals("13") || roverName.equals("14") || roverName.equals("15") 
-				|| roverName.equals("16") || roverName.equals("17") || roverName.equals("18")){
+		} else if(roverName.equals("06") || roverName.equals("07") || roverName.equals("08") 
+				|| roverName.equals("09") || roverName.equals("10")){
 			this.teamNum = 2;
 		}
 		
